@@ -1,0 +1,45 @@
+:root {
+  --example-color-paper: #f5f5f0;
+  --example-color-ink: #151515;
+  --example-color-muted: #666660;
+  --example-color-line: #d0d0c8;
+  --example-color-accent: #6cff8f;
+  --example-font-sans: ui-sans-serif, system-ui, sans-serif;
+  --example-font-mono: ui-monospace, monospace;
+  --wa-color-surface-default: var(--example-color-paper);
+  --wa-color-text-normal: var(--example-color-ink);
+  --wa-color-brand-fill-loud: var(--example-color-accent);
+  color-scheme: light;
+}
+
+:root[data-theme='dark'] {
+  --example-color-paper: #151515;
+  --example-color-ink: #f5f5f0;
+  --example-color-muted: #aaa9a0;
+  --example-color-line: #3a3a36;
+  color-scheme: dark;
+}
+
+:root {
+  color: var(--example-color-ink);
+  font-family: var(--example-font-sans);
+  background: var(--example-color-paper);
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  width: min(calc(100% - 3rem), 72rem);
+  margin: 0 auto;
+  padding: 6rem 0;
+}
+
+.eyebrow {
+  color: var(--example-color-muted);
+  font-family: var(--example-font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}

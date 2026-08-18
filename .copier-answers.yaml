@@ -1,0 +1,12 @@
+# Changes here will be overwritten by Copier
+_commit: 690e994
+_src_path: https://github.com/python-project-templates/base.git
+add_extension: uitk-webawesome
+brand_name: Example
+css_prefix: example
+element_prefix: example
+github: python-project-templates
+package_name: '@python-project-templates/uitk-webawesome'
+project_description: Shared brand identity, design tokens, and reusable Lit and Web
+    Awesome components.
+project_name: javascript-template-uitk-webawesome

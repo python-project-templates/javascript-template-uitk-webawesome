@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Example brand kit</title>
+    <script>
+      try {
+        const saved = localStorage.getItem('javascript-template-uitk-webawesome.theme');
+        const theme =
+          saved === 'light' || saved === 'dark'
+            ? saved
+            : matchMedia('(prefers-color-scheme: dark)').matches
+              ? 'dark'
+              : 'light';
+        document.documentElement.dataset.theme = theme;
+      } catch {}
+    </script>
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">Brand toolkit</p>
+      <example-brand-mark></example-brand-mark>
+      <p>Shared brand identity, design tokens, and reusable Lit and Web Awesome components.</p>
+      <example-theme-toggle data-testid="theme-toggle"></example-theme-toggle>
+    </main>
+    <script type="module" src="/src/demo.ts"></script>
+  </body>
+</html>
