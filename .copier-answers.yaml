@@ -1,5 +1,5 @@
 # Changes here will be overwritten by Copier
-_commit: 7522e24
+_commit: dcfbd4b
 _src_path: https://github.com/python-project-templates/base.git
 add_extension: uitk-webawesome
 brand_name: Example
@@ -10,3 +10,4 @@ package_name: '@python-project-templates/uitk-webawesome'
 project_description: Shared brand identity, design tokens, and reusable Lit and Web
     Awesome components.
 project_name: javascript-template-uitk-webawesome
+
