@@ -9,9 +9,9 @@ export class ThemeToggle extends LitElement {
 
   static styles = css`
     wa-button::part(base) {
-      border-color: var(--example-color-line);
-      color: var(--example-color-ink);
-      background: var(--example-color-paper);
+      border-color: var(--example-border);
+      color: var(--example-fg);
+      background: var(--example-bg);
     }
   `;
 

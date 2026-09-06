@@ -19,9 +19,9 @@ export class BrandMark extends LitElement {
       height: 2rem;
       place-items: center;
       border-radius: 50%;
-      color: var(--example-color-paper);
-      background: var(--example-color-ink);
-      box-shadow: 3px 3px 0 var(--example-color-accent);
+      color: var(--example-bg);
+      background: var(--example-fg);
+      box-shadow: 3px 3px 0 var(--example-focus);
     }
   `;
 
