@@ -4,7 +4,7 @@
   "description": "Shared brand identity, design tokens, and reusable Lit and Web Awesome components.",
   "license": "Apache-2.0",
   "private": true,
-  "packageManager": "pnpm@11.9.0",
+  "packageManager": "pnpm@11.28.0",
   "engines": {
     "node": ">=22"
   },
@@ -40,21 +40,36 @@
     "test:e2e:update": "playwright test --update-snapshots"
   },
   "peerDependencies": {
+<<<<<<< before updating
     "@awesome.me/webawesome": "^3.13.0",
+=======
+    "@awesome.me/webawesome": "^3.14.0",
+>>>>>>> after updating
     "lit": "^3.3.3"
   },
   "devDependencies": {
     "@awesome.me/webawesome": "^3.13.0",
     "@axe-core/playwright": "^4.13.0",
     "@playwright/test": "^1.63.0",
+<<<<<<< before updating
     "@types/node": "^26.6.2",
     "jsdom": "^30.1.1",
     "lit": "^3.3.3",
+=======
+    "@awesome.me/webawesome": "^3.14.0",
+    "lit": "^3.3.3",
+    "@types/node": "^26.6.3",
+    "jsdom": "^30.1.1",
+>>>>>>> after updating
     "oxfmt": "^0.70.0",
     "oxlint": "^1.85.0",
     "publint": "^0.3.24",
     "typescript": "^7.0.2",
+<<<<<<< before updating
     "vite": "^8.3.0",
+=======
+    "vite": "^8.3.1",
+>>>>>>> after updating
     "vitest": "^5.0.1"
   }
 }
