@@ -26,7 +26,7 @@ export class BrandMark extends LitElement {
   `;
 
   render() {
-    return html`<a href="/" aria-label="Example, home"><span aria-hidden="true">E</span>Example</a>`;
+    return html`<a href="/"><span aria-hidden="true">E</span>Example</a>`;
   }
 }
 
